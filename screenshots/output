@@ -1,1 +1,11 @@
+Overall Flow:
+Calculate total combinations and display all possible combinations and their probabilities for the original dice (Part-A).
+Attempt to undo Loki's mischief by generating new combinations for Die A and Die B (Part-B).
+Check if the probabilities of sums remain unchanged after reattaching spots.
+Display the new dice configurations and their probabilities.
+
+
+Note:
+The code uses a combination of nested loops, maps, and sets to efficiently calculate combinations and probabilities.
+The undoomDice function ensures that the new dice configuration satisfies Loki's conditions while maintaining the original probabilities.
 
