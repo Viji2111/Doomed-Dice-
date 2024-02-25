@@ -58,17 +58,17 @@ public class Main {
         }
     }
 
-    public static void probabilityCheck(int[] Die1, int[] Die2) {
+    public static void probabilityCheck(int[] Die3, int[] Die4) {
         Map<Integer, Float> combination = new HashMap<>();
 
-        for (int i : Die1) {
-            for (int j : Die2) {
+        for (int i : Die3) {
+            for (int j : Die4) {
                 int sum = i + j;
                 combination.put(sum, combination.getOrDefault(sum, 0f) + 1);
             }
         }
 
-        int totalCombination = Die1.length * Die2.length;
+        int totalCombination = Die3.length * Die4.length;
 
         System.out.println("Probability Check of New Dice:");
         System.out.println();
